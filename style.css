@@ -133,6 +133,43 @@ img{
     line-height: 25px;
 }
 
+#portfolio{
+    margin: 20px;
+    padding: 10px;
+    max-width: 100%;
+}
+
+.my-portfolio h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    margin-left: 550px;
+    margin-right: 500px;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.my-portfolio p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.my-portfolio ul{
+    padding: 10px 40px;
+} 
+
+.my-portfolio ul li a:hover{
+    background-color: black;
+    color: white;
+    max-width: 100%;
+}
+
+.my-portfolio ul li a:active{
+    color: yellowgreen;
+}
+
 #skills{
     margin: 20px;
     padding: 10px;
@@ -159,8 +196,6 @@ img{
 .my-skills ul{
     padding: 10px 40px;
 }
-
-
 
 .contact-head h1{
     font-weight: 700;
