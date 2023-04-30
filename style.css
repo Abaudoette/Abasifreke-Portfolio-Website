@@ -40,11 +40,12 @@ body{
     color: aqua;
 }
 
-.home{
-    margin-top: 150px;
+#home{
+    margin-top: 100px;
     display: flex;
     align-items: center;
     padding: 0 10%;
+    border-bottom: 1px solid aqua;
 }
 
 .home-content{
@@ -52,12 +53,12 @@ body{
 }
 
 .home-content h1{
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 700;
 }
 
 .home-content h3{
-    font-size: 27px;
+    font-size: 25px;
     font-weight: 700;
     color: aqua;
     margin-top: 10px;
@@ -89,10 +90,147 @@ body{
     font-size: 15.5px;
 }
 
+img{
+    max-width: 40%;
+    border: 1px solid white;
+    border-radius: 200px;
+    margin-left: 150px;
+}
+
+.foot-icons ul li{
+    color: white;
+}
+
+#about{
+    margin: 20px;
+    padding: 10px;
+    max-width: 100%;
+    
+}
+
+.about-contents h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    margin-left: 600px;
+    margin-right: 530px;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+.about-contents h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    color: aqua;
+}
+
+.about-contents p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+#skills{
+    margin: 20px;
+    padding: 10px;
+    max-width: 100%;  
+}
+
+.my-skills h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    margin-left: 600px;
+    margin-right: 540px;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.my-skills p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.my-skills ul{
+    padding: 10px 40px;
+}
+
+
+
+.contact-head h1{
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 600px;
+    margin-right: 560px;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+ 
+}
+
+.container{
+    border: 1px solid aqua;
+    margin: auto;
+    width: 40%;
+    background-color: white;
+}
+
+.form-field{
+    padding: 40px;
+}
+
+.form-details{
+    color: black;
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    padding: 12px 28px;
+    margin: 8px 0;
+    border: 1px solid white;
+    background-color: #081b29;
+    color: white;
+   
+}
+
+.btn1{
+    /*display: block;
+    width: 100%;*/
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 6px 12px ;
+    font-weight: bold;
+}
+
+.btn1:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+#icons .foot-icons ul{
+    margin: 50px;
+    padding-left: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    list-style: none;
+}
+
 .twi,
 .lkd,
 .wht,
 .fb{
     color: white;
 }
+
 
