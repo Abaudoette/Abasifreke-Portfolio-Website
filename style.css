@@ -319,4 +319,9 @@ input{
         flex-direction: row;
         flex-wrap: nowrap;
     }
+    h1{
+        justify-content: flex-start;
+        flex-direction: row;
+    }
 }
+
